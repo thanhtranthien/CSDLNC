@@ -1,6 +1,6 @@
 <?php
 echo "Hello"; 
-$servername = "database-1.cocgl5wbv5ga.ap-southeast-1.rds.amazonaws.com";
+$servername = "database-1.cocgl5wbv5ga.ap-southeast-1.rds.amazonaws.com:3306";
 $database = "database-1";
 $username = "admin";
 $password = "12345678";
