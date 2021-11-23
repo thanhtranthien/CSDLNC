@@ -6,8 +6,10 @@ $username = "admin";
 $password = "12345678";
 $port = "3306";
 // Create connection
+echo "Hello2"; 
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
+echo "Hello3"; 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
