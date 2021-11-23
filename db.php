@@ -10,7 +10,6 @@ echo "Hello2";
 try {
     $conn = mysqli_connect($servername, $username, $password, $database);
 } catch (mysqli_sql_exception $e) {
-    echo $e;
     die("Unfortunately, the details you entered for connection are incorrect!");
 }
 
