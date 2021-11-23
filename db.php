@@ -7,7 +7,13 @@ $password = "12345678";
 $port = "3306";
 // Create connection
 echo "Hello2"; 
-$conn = mysqli_connect($servername, $username, $password, $database);
+try {
+    $conn = mysqli_connect($servername, $username, $password, $database);
+} catch (mysqli_sql_exception $e) {
+    echo $e;
+    die("Unfortunately, the details you entered for connection are incorrect!");
+}
+
 // Check connection
 echo "Hello3"; 
 if (!$conn) {
