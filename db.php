@@ -14,7 +14,7 @@ try {
 }
 
 // Check connection
-echo "Hello3"; 
+echo "Hello3";  
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
