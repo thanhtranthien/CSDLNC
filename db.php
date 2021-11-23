@@ -4,7 +4,7 @@ $servername = "database-1.cocgl5wbv5ga.ap-southeast-1.rds.amazonaws.com";
 $database = "database-1";
 $username = "admin";
 $password = "12345678";
-$port = "3306";
+$port = "3306"; 
 // Create connection
 echo "Hello2"; 
 try {
