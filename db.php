@@ -1,7 +1,7 @@
 <?php
 echo "Hello"; 
 $servername = "database-1.cocgl5wbv5ga.ap-southeast-1.rds.amazonaws.com";
-$database = "test";
+$database = "test"; 
 $username = "admin";
 $password = "12345678";
 $port = "3306";
